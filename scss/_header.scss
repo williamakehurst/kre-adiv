@@ -1,0 +1,70 @@
+header {
+	padding: 1rem;
+}
+.logo {
+	display: inline-block;
+}
+.logo__image {
+	vertical-align: middle;
+}
+nav {
+	float: right;
+}
+.nav-item {
+	display: inline;
+}
+/* For Animation */
+.logo, nav, .splash__display, .splash__headline {
+	opacity: 0;
+}
+@include breakpoint(mobileOnly) {
+	.logo__image {
+		max-width: 64px;
+	}
+	nav {
+		background-color: $darkCharcoal;
+		border-top: 1px solid $white;
+		bottom: 0;
+		left: 0;
+		position: fixed;
+		width: 100%;
+	}
+	ul[role="navigation"] {
+		padding: 0 1rem;
+	}
+	.nav-item {
+		float: left;
+		text-align: center;
+		padding: 0.5rem 0;
+		width: 25%;
+		&__icon {
+			display: block;
+			margin: 0 auto 0.25rem auto;
+			height: 20px;
+		}
+	}
+}
+@include breakpoint(phabletUp) {
+	.logo__image {
+		max-width: 64px;
+	}
+	.nav-item {
+		line-height: 64px;
+		padding: 0 0.75rem;
+		&__icon {
+			display: none;
+		}
+	}
+}
+@include breakpoint(laptopUp) {
+	.logo__image {
+		max-width: 100px;
+	}
+	.nav-item {
+		line-height: 100px;
+		padding: 0 2rem;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

@@ -1,0 +1,62 @@
+body {
+	color: $white;
+	font-family: "Roboto", sans-serif;
+	font-weight: lighter;
+	letter-spacing: 0.1rem;
+}
+.logo {
+	font-size: 1rem;
+	font-weight: lighter;
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: lighter;
+	line-height: 1.5;
+}
+
+.title {
+	text-transform: uppercase;
+}
+
+@include breakpoint(mobileOnly) {
+	.nav-item {
+		font-size: 0.675rem;
+	}
+	.display {
+		font-size: 1.25rem;
+	}
+	.title {
+		font-size: 1.25rem;
+	}
+	.headline {
+		font-size: 1rem;
+	}
+}
+@include breakpoint(phabletUp) {
+	.display {
+		font-size: 2.25rem;
+	}
+	.title {
+		font-size: 1.5rem;
+	}
+	.headline {
+		font-size: 1.25rem;
+	}
+}
+@include breakpoint(laptopUp) {
+	.logo {
+		font-size: 1.5rem;
+	}
+	.nav-item {
+		font-size: 1.5rem;
+	}
+	.display {
+		font-size: 3rem;
+	}
+	.title {
+		font-size: 1.75rem;
+	}
+	.headline {
+		font-size: 1.5rem;
+	}
+}

@@ -1,0 +1,31 @@
+.splash__content {
+	padding-top: 3rem;
+}
+.splash__headline {
+	position: relative;
+}
+.display__copy.end {
+	border-bottom: 1px solid $white;
+}
+@include breakpoint(mobileOnly) {
+	.display__copy.end {
+		padding-bottom: 1rem;
+	}
+}
+@include breakpoint(phabletUp) {
+	.display__copy.end {
+		padding-bottom: 1.5rem;
+	}
+	.splash__headline {
+		top: 1rem;
+	}
+}
+@include breakpoint(laptopUp) {
+	.display__copy.end {
+		padding-bottom: 2.5rem;
+	}
+	.splash__headline {
+		top: 1.5rem;
+	}
+
+}

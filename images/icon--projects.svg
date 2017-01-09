@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Projects Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-SE-Copy" transform="translate(-26.000000, -531.000000)">
+            <g id="Nav-Icons" transform="translate(15.000000, 531.000000)">
+                <g id="Projects-Icon">
+                    <g transform="translate(11.000000, 0.000000)" id="Rectangle-7">
+                        <polyline fill="#F8CEC9" points="0 2.0065041 0 17.9673321 23.6794252 17.9673321"></polyline>
+                        <polyline fill="#F4B5B3" points="23.6794252 17.9673321 23.6794252 2.0065041 0 2.0065041"></polyline>
+                        <polygon fill="#BCA6B3" transform="translate(6.760551, 1.014653) scale(-1, 1) translate(-6.760551, -1.014653) " points="2.02930528 0 13.5211015 0 13.5211015 2.02930528 2.02930528 2.02930528 -1.02132459e-13 2.02930528"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

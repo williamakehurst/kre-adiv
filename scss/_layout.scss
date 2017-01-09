@@ -1,0 +1,48 @@
+$desktop: 75rem;
+$laptop: 60rem;
+$tablet: 48rem;
+$mobile: 37.5rem;
+
+@mixin breakpoint($point) {
+	@if $point == desktop {
+		@media (max-width: $desktop) { @content ; }
+	}
+	@else if $point == laptopUp {
+		@media (min-width: $laptop) { @content ; }
+	}
+	@else if $point == tabletUp {
+		@media (min-width: $tablet) { @content ; }
+	}
+	@else if $point == phabletUp {
+		@media (min-width: $mobile )  { @content ; }
+	}
+	@else if $point == mobileOnly {
+		@media (max-width: $mobile)  { @content ; }
+
+	}
+}
+.container {
+	max-width: $desktop;
+	margin: 0 auto;
+}
+section {
+	height: 100vh;
+	width: 100%;
+}
+main {
+	padding: 0 1rem;
+	position: relative;
+}
+.section {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: $darkCharcoal;
+	z-index: 1;
+	display: none;
+}
+.show--projects {
+	.projects {
+		display: block;
+	}
+}

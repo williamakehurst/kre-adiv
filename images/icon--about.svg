@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="25px" viewBox="0 0 23 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>About Me Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="8.52231498" cy="8.52128621" rx="8.52231498" ry="8.52128621"></ellipse>
+        <path d="M18.9135398,0.079291336 C20.8367702,2.40349852 22.0207468,5.57334684 22.0207468,9.06741776 L0,9.06741776 C0,5.54062785 1.20625426,2.34416111 3.16142924,0.0142215881 C5.12191938,2.15186423 7.93821934,3.49203229 11.0675701,3.49203229 C14.1650471,3.49203229 16.9558179,2.17902561 18.9135398,0.0792913362 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Me-Icon" transform="translate(-1.000000, -3.000000)">
+            <g id="Rectangle-+-Rectangle-Mask" transform="translate(12.101994, 12.070436) rotate(45.000000) translate(-12.101994, -12.070436) translate(3.577801, 3.546242)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <rect id="Rectangle" fill="#F8CEC9" mask="url(#mask-2)" x="8.47247688" y="2.08578674e-14" width="8.52231498" height="17.0425724"></rect>
+                <rect id="Rectangle" fill="#F4B5B3" mask="url(#mask-2)" x="-0.0498380993" y="2.08578674e-14" width="8.52231498" height="17.0425724"></rect>
+            </g>
+            <g id="Rectangle-2-+-Rectangle-2-Mask" transform="translate(1.063755, 18.872647)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-3"></use>
+                <rect id="Rectangle-2" fill="#F8CEC9" mask="url(#mask-4)" x="-5.43369076" y="-10.9232595" width="16.4681569" height="31.8547411"></rect>
+                <rect id="Rectangle-2" fill="#F4B5B3" mask="url(#mask-4)" x="10.9862807" y="-14.0115109" width="15.8389927" height="37.974054"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
