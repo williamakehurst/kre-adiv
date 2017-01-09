@@ -74,11 +74,11 @@ $(function(){
 			});
 		}
 		if (scrollD > showContactInfo) {
-			TweenLite.to('.about__content', 0.75, {
+			TweenLite.to('.contact__content', 0.75, {
 				opacity: 1,
 			});
 		} else if (scrollD < showContactInfo) {
-			TweenLite.to('.about__content', 0.75, {
+			TweenLite.to('.contact__content', 0.75, {
 				opacity: 0,
 			});
 		}
