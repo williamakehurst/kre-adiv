@@ -13,23 +13,37 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: lighter;
 	line-height: 1.5;
 }
+.display {
+	font-weight: bold;
+}
 
 .title {
 	text-transform: uppercase;
 }
-
+.body2 {
+	font-weight: bold;
+	color: $white;
+}
+p {
+	color: $fontLight;
+	font-size: 1.25rem;
+	line-height: 2;
+}
+.no-break {
+	white-space: nowrap;
+}
 @include breakpoint(mobileOnly) {
 	.nav-item {
 		font-size: 0.675rem;
 	}
 	.display {
-		font-size: 1.25rem;
+		font-size: 1.75rem;
 	}
 	.title {
 		font-size: 1.25rem;
 	}
 	.headline {
-		font-size: 1rem;
+		font-size: 1.25rem;
 	}
 }
 @include breakpoint(phabletUp) {

@@ -1,11 +1,22 @@
 .splash__content {
+	margin: 0 auto;
+	max-width: 800px;
 	padding-top: 3rem;
+	height: 100%;
+	position: relative;
+	.splash__message {
+		position: absolute;
+		bottom: 5rem;
+		left: 1rem;
+		opacity: 0;
+	}
+}
+.splash__display {
+	font-weight: bold;
 }
 .splash__headline {
 	position: relative;
-}
-.display__copy.end {
-	border-bottom: 1px solid $white;
+	color: $fontLight;
 }
 @include breakpoint(mobileOnly) {
 	.display__copy.end {
