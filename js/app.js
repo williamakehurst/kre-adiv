@@ -8,13 +8,13 @@ $(function(){
 		opacity: 1,
 		y: 0,
 	},0.5);
-	tl.fromTo('.splash__headline', 1, {
+	tl.fromTo('.splash__headline, .portfolio', 1, {
 		opacity: 0,
 		x: -100,
 	},{
 		opacity: 1,
 		x: 0,
-	},1.5);
+	});
 	tl.fromTo('.splash__message', 1, {
 		opacity: 0,
 		y: 100,
