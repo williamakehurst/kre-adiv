@@ -25,11 +25,12 @@ $(function(){
 	$(window).scroll(function(){
 		var windowHeight = $(window).height();
 		var scrollD = $(window).scrollTop();
-		var showContactInfo = windowHeight * 0.6;
+		var showContactInfo = windowHeight * 0.20;
+		console.log(scrollD, showContactInfo);
 		if (scrollD > 30) {
 			TweenLite.to('.splash__message', 0.4, {
 				opacity: 0,
-				y: -30,
+				y: -40,
 			});
 		} else {
 			TweenLite.to('.splash__message', 0.4, {
