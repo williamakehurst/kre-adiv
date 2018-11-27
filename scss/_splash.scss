@@ -19,6 +19,8 @@
 }
 hr {
 	opacity: 0;
+	border-color: $kreadivBlue;
+	border-style: ridge;
 }
 .splash__headline {
 	position: relative;
@@ -27,8 +29,15 @@ hr {
 .portfolio {
 	color: $fontLight;
 	display: inline-block;
+	font-weight: bold;
 	margin-top: 2rem;
 	transition: all 0.2s;
+	margin-right: 4rem;
+	&:hover {
+		color: $kreadivGreen;
+		padding-bottom: 0.5rem;
+		border-bottom: 1px solid $kreadivGreen;
+	}
 }
 @include breakpoint(mobileOnly) {
 	.display__copy.end {

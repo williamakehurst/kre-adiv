@@ -1,13 +1,7 @@
 body {
-	color: $white;
+	color: $kreadivBrown;
 	font-family: "Roboto", sans-serif;
-	font-weight: lighter;
 	letter-spacing: 0.1rem;
-}
-.logo {
-	font-size: 1rem;
-	font-weight: lighter;
-	margin: 0;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-weight: lighter;
@@ -15,6 +9,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .display {
 	font-weight: bold;
+	color: $kreadivBlue;
 }
 
 .title {
@@ -22,7 +17,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .body2 {
 	font-weight: bold;
-	color: $white;
+	color: $kreadivBrown;
 }
 p {
 	color: $fontLight;
@@ -31,6 +26,12 @@ p {
 }
 .no-break {
 	white-space: nowrap;
+}
+.about__link {
+	transition: all 0.2s;
+	&:hover {
+		color: $kreadivGreen;
+	}
 }
 @include breakpoint(mobileOnly) {
 	.nav-item {

@@ -2,7 +2,6 @@
 @import "layout";
 @import "typography";
 @import "splash";
-@import "projects";
 @import "contact";
 
 /* Reset */
@@ -28,27 +27,8 @@ button:focus {
 	outline: 0;
 }
 body {
-	background-color: $darkCharcoal;
+	background-color: $bodyBg;
 }
 .break {
 	display: block;
-}
-.read-more {
-	background-color: transparent;
-	border: 1px solid $lightCharcoal;
-	border-radius: 5px;
-	color: $lightCharcoal;
-	font-size: 1rem;
-	transition: all 0.75s;
-}
-@include breakpoint(mobileOnly) {
-	.read-more {
-		padding: 0.675rem 1.25rem;
-		font-size: 0.75rem;
-	}
-}
-@include breakpoint(phabletUp) {
-	.read-more {
-		padding: 1.25rem 2.5rem;
-	}
 }
